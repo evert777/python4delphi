@@ -13,8 +13,6 @@ object Form1: TForm1
   Font.Name = 'MS Sans Serif'
   Font.Pitch = fpVariable
   Font.Style = []
-  OldCreateOrder = True
-  PixelsPerInch = 96
   TextHeight = 13
   object Splitter1: TSplitter
     Left = 0
@@ -81,21 +79,5 @@ object Form1: TForm1
       '')
     ParentFont = False
     TabOrder = 2
-  end
-  object PythonEngine1: TPythonEngine
-    DllName = 'python37.dll'
-    APIVersion = 1013
-    RegVersion = '3.7'
-    UseLastKnownVersion = False
-    IO = PythonGUIInputOutput1
-    Left = 16
-    Top = 16
-  end
-  object PythonGUIInputOutput1: TPythonGUIInputOutput
-    UnicodeIO = True
-    RawOutput = False
-    Output = Memo2
-    Left = 56
-    Top = 16
   end
 end
